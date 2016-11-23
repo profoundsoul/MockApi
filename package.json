@@ -1,0 +1,29 @@
+{
+  "name": "mockapi",
+  "version": "1.0.0",
+  "description": "mock restful api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profoundsoul/MockApi.git"
+  },
+  "keywords": [
+    "mock",
+    "restful",
+    "api"
+  ],
+  "author": "profoundsoul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/profoundsoul/MockApi/issues"
+  },
+  "homepage": "https://github.com/profoundsoul/MockApi#readme",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "mockjs":"^1.0.0",
+    "mongodb":"^2.0.0"
+  }
+}
