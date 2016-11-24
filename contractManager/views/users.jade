@@ -1,0 +1,20 @@
+extends layout
+
+	
+block content
+	style.
+		li {
+			list-style-type:none;
+		}
+	div.main
+		h1 #{name}
+		h2=age
+		span.js_tt(title='ceshi') testsdfsdfs
+		br
+		a(href='http://baidu.com', target='_blank') 链接到百度
+		- var num =10;
+		span=num
+	ul
+		-for(var i=0;i<10;i++)
+			li=i
+			hr
