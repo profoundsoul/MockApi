@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	style.
+		input{
+			margin-bottom:5px;
+		}
+	div
+		form(name='myform', action='/adduser/add',method='post',enctype='multipart/form-data')
+			input(type='text',name='code',required,pattern='\\w+',placeholder='请输入编号')
+			br
+			input(type='text',name='name',placeholder='请输入中文名称')
+			br
+			input(type='submit',value='提交')
